@@ -1,0 +1,41 @@
+.b {	
+      font-family: Garamond, Times New Roman, Times;
+	background-color: #f8f8e0; 
+      padding-top: 0;
+      margin-top: 0;
+	width: 45em; 
+	align: center; 
+      /* text-align: justify; */
+	border: grey solid 1px;
+/*	padding-left: 1em;
+	padding-right: 1em; */
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+    }
+
+h1, h2 {
+/*	background-color: #404080;*/
+	color: black;
+      text-align: left;
+      font-family: Georgia, Garamond, Times New Roman, Times;
+	text-decoration: none;
+	font-weight: normal;
+      text-indent: 1ex;
+      /* padding-left: 2ex;*/
+	border-bottom: 1px solid black;
+      padding-top: 0;
+      margin: 0;
+      width: 100%;
+}
+ 
+p {
+      line-height: 150%;
+      margin: 1.5em 2em;
+}
+
+body {
+  background-color: #c0c0c0;
+      padding-top: 0;
+      margin-top: 0;
+}

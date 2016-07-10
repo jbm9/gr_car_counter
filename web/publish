@@ -1,0 +1,12 @@
+#!/bin/bash
+# This is awful/janky.  Sorry, future self.
+
+IFS=""
+
+for y in *.ipynb; do
+    ipython nbconvert "$y"
+done
+
+cat index_base.html.header > index.html
+cat index_body.html >> index.html
+cat index_base.html.footer >> index.html

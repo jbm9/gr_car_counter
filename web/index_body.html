@@ -1,0 +1,33 @@
+<body>
+<h1>Counting Cars with Raspberry Pi and GNU Radio</h1>
+
+<p>I recently found myself needing to count the cars going past my
+house.  I wanted to do this 24/7 for a few weeks, so I couldn't
+exactly do it by hand.  Also, it's always more fun to do write overly
+complicated programs to do things for you.  There were a few candidate
+solutions, but the one that wound up winning was a small GNU Radio
+script that implemented a (sort of) simple algorithm to count cars
+based on the white noise they made as they went past.</p>
+
+<p>To start with, you probably want to read <a
+href="Explanation.html">the explanation of the algorithm</a>,which
+includes a bit of its theory of operation.  Once you have a rough
+handle on that, if you want to try and use it yourself, I've included
+a copy of the script I use to gather the data in the git repo for this
+page.  See below for instructions on getting it.  You'll need a
+raspberry pi with a USB sound card an a little microphone that gets a
+relatively quiet "view" of the street.  From there, you'll want to do
+'apt-get install gnuradio' on the RPi's OS, and hope that it gets
+everything you need to run the script in a screen.</p>
+
+<p>This is all provided as-is, with no support.  I wrote this as a
+quick one-off hack to solve a specific problem, and am sharing it
+mostly because a few people asked how I was doing it.  I hope it's
+instructive and inspirational for others considering similar things,
+but I don't know if it will work for anyone else. It's not clear if
+the techniques used here are generally applicable, or if they only
+work on my relatively quiet city street.</p>
+
+<p>Thanks, and happy hacking!</p>
+
+</body>

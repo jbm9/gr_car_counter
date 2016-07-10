@@ -1,0 +1,30 @@
+
+<hr>
+	
+
+<p>This is an undertaker project.   You can check out your own copy of
+  it by <a href="./gr_car_counter.git/">doing a git clone of this URL
+  (right-click and "Copy URL")</a>.  It contains everything needed to
+  extend this project, including this webpage and all the scripts used
+  to generate it.</p>
+
+<p>Undertaker is a tool for managing the 
+open source development/publishing/release process, which pulls your 
+source code, documentation, blog posts, etc, all into a single static 
+"gitball" for release.  It can also generate static websites from 
+locally-dynamic files, allowing you to have a project blog that looks
+dynamic but is actually statically published.  This makes your content
+very friendly to archiving by tools like the wayback machine, and also
+to indexing by web crawlers.  You can also publish all your content via
+trivial static webservers, including CDNs or just local files.</p>
+
+<p>To republish this code as intended, please check out undertaker, at 
+  <a
+  href="http://www.joshisanerd.com/projects/undertaker/">http://www.joshisanerd.com/projects/undertaker/</a>
+  or <a href="https://github.com/jbm9/undertaker">https://github.com/jbm9/undertaker</a>.
+)</p>
+	  <center><address>Copyright &copy; 2016 <a href="mailto:josh@joshisanerd.com">Josh Myer</a><br/>
+	    <a href="http://www.joshisanerd.com/">The author's homepage</a>.</address></center>
+
+</div>
+</body> </html>
