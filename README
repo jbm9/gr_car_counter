@@ -1,9 +1,22 @@
-.skel
-=====
+gr_car_counter
+==============
 
-This is a skeleton project.  It needs better documentation.
+A GNU Radio flowgraph that uses a microphone on a USB sound card to
+count cars driving past.  It's meant to run on a Raspberry Pi 2, but
+will probably work on just about anything that can run GNU Radio
+reasonably well.  In particular, you'll want to make sure the FFTW
+implementation for your platform is decent, as this does a fair number
+of small FFTs while it runs.
+
+For more on the theory of operation, see the IPython/Jupyter notebook
+in the web directory, web/Explanation.html.
+
+This is provided as-is, with no warranty, etc.  The runtime code is
+licensed cc-by, so do what you will with it, so long as you give
+attribution.
+
 
 Contents:
 
-web/ -- An empty website for this thing
-code/ -- An empty directory for code for this thing
+web/ -- The website for this thing, including an ipython notebook theory of operation
+code/ -- The code to run on the RPi, and a sample heatmap collator
